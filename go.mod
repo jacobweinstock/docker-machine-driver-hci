@@ -1,4 +1,4 @@
-module github.com/jacobweinstock/docker-machine-driver-hci
+module github.com/jacobweinstock/docker-machine-driver-netapp
 
 go 1.14
 

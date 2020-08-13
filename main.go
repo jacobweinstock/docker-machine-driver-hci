@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/docker/machine/libmachine/drivers/plugin"
-	hci "github.com/jacobweinstock/docker-machine-driver-hci/pkg/drivers/hci"
+	"github.com/jacobweinstock/docker-machine-driver-hci/pkg/drivers/netapp"
 )
 
 func main() {
-	plugin.RegisterDriver(new(hci.Driver))
+	plugin.RegisterDriver(new(netapp.Driver))
 }
